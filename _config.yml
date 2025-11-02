@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Li-Pin Juan's Tech Blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Li-Pin Juan
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://libinruan.github.io/tech
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,4 +101,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git 
+  repo: git@github.com:libinruan/tech.git
+  branch: gh-pages
+
