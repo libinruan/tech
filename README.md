@@ -1,4 +1,3 @@
-**Yes, exactly right!** 
 
 You should **always work on the `main` branch** for your day-to-day blogging activities.
 
@@ -12,8 +11,8 @@ And you should **always run the Hexo commands in the `root`** of the Hexo projec
 - Modify `_config.yml` 
 - Install themes or plugins
 - Test locally: `hexo server`
-- Deploy: `hexo clean && hexo g -d`
-- Backup source files: `git add . && git commit && git push origin main`
+- **Deploy:** `hexo clean && hexo g -d`
+- **Backup source files:** `git add . && git commit && git push origin main`
 
 ### ❌ Never manually work on `gh-pages`:
 - The `gh-pages` branch is **automatically managed** by `hexo deploy`
