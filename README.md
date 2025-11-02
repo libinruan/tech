@@ -2,6 +2,8 @@
 
 You should **always work on the `main` branch** for your day-to-day blogging activities.
 
+And you should **always run the Hexo commands in the `root`** of the Hexo project.
+
 ## Your workflow on the `main` branch:
 
 ### ✅ Always do these on `main`:
@@ -33,3 +35,8 @@ git checkout main  # Switch back to main
 ```
 
 **Always work on `main` and let Hexo handle the `gh-pages` branch automatically.** 🎯
+
+## Theme
+
+1. Use the first approach to install a theme: Download the tar.gz file from the theme's GitHub repository and extract it into the `themes` directory of your Hexo project. Then, update the `_config.yml` file in the root to set the theme to the extracted theme directory.
+2. To fine tune the new theme, go to `themes/<theme-name>/_config.yml` and modify the settings.
