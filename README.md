@@ -32,4 +32,4 @@ If you're ever on the wrong branch:
 git checkout main  # Switch back to main
 ```
 
-**So yes, you've got it right! Always work on `main` and let Hexo handle the `gh-pages` branch automatically.** 🎯
+**Always work on `main` and let Hexo handle the `gh-pages` branch automatically.** 🎯
